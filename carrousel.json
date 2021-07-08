@@ -1,0 +1,33 @@
+[{
+    "id": "element1",
+    "src":"./Assets/images/Harajuku Bear Anime Hoodie.jpg"
+    },
+    {
+        "id": "element2",
+        "src": "./Assets/images/Outwear Graffiti” Jacket.jpg"
+    },
+    {
+        "id": "element3",
+        "src": "./Assets/images/Kawaii Anime Hoodie.jpg"
+    },
+    {
+        "id": "element4",
+        "src":"./Assets/images/Design Fashion Camera Mini Purse.jpg"
+    },
+    {
+        "id": "element5",
+        "src":"./Assets/images/Hooded Winter Long Sleeve Chinese style Embroidery Hoodie.jpg"
+    },
+    {
+        "id": "element6",
+        "src":"./Assets/images/Shiba Inu Print Kawaii Velvet Long-sleeved Hooded Plush Coat.jpg"
+    },
+    {
+        "id": "element7",
+        "src":"./Assets/images/HODDIE SASUKE EYES.jpg"
+    },
+    {
+        "id": "element8",
+        "src":"./Assets/images/T-SHORTS GOKU TRAINING.jpg"
+    }
+]

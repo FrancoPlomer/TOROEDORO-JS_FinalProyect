@@ -1,0 +1,195 @@
+[
+    {
+        "id":"elementproduct1",
+        "nombre":"Kawaii Anime Hoodie",
+        "precio":1500,
+        "source":"../Assets/images/Kawaii Anime Hoodie.jpg"
+    },
+    {
+        "id":"elementproduct2",
+        "nombre":"Hooded Winter Long Sleeve Chinese style Embroidery Hoodie",
+        "precio":1500,
+        "source":"../Assets/images/Hooded Winter Long Sleeve Chinese style Embroidery Hoodie.jpg"
+    },
+    {
+        "id":"elementproduct3",
+        "nombre":"Harajuku Bear Anime Hoodie",
+        "precio":1500,
+        "source":"../Assets/images/Harajuku Bear Anime Hoodie.jpg"
+    },
+    {
+        "id":"elementproduct4",
+        "nombre":"Sleeping Kitty Embroidery Hoodie",
+        "precio":1500,
+        "source":"../Assets/images/Sleeping Kitty Embroidery Hoodie.jpg"
+    },
+    {
+        "id":"elementproduct5",
+        "nombre":"Shiba Inu Print Kawaii Velvet Long-sleeved Hooded Plush Coat",
+        "precio":3000,
+        "source":"../Assets/images/Shiba Inu Print Kawaii Velvet Long-sleeved Hooded Plush Coat.jpg"
+    },
+    {
+        "id":"elementproduct6",
+        "nombre":"Beading Star Jacket",
+        "precio":3000,
+        "source":"../Assets/images/Beading Star” Jacket.jpg"
+    },
+    {
+        "id":"elementproduct7",
+        "nombre":"Outwear Graffiti Jacket",
+        "precio":3000,
+        "source":"../Assets/images/Outwear Graffiti” Jacket.jpg"
+    },
+    {
+        "id":"elementproduct8",
+        "nombre":"Rock Star Jacket",
+        "precio":3000,
+        "source":"../Assets/images/Rock Star” Jacket.jpg"
+    },
+    {
+        "id":"elementproduct9",
+        "nombre":"Short Sleeves",
+        "precio":1000,
+        "source":"../Assets/images/Short Sleeves.jpg"
+    },
+    {
+        "id":"elementproduct10",
+        "nombre":"Purple Long Sleeve loose O-neck T-shirt",
+        "precio":1000,
+        "source":"../Assets/images/Purple Long Sleeve loose O-neck T-shirt.jpg"
+    },
+    {
+        "id":"elementproduct11",
+        "nombre":"Button Up Blouse Shirt",
+        "precio":1000,
+        "source":"../Assets/images/Button Up Blouse Shirt.jpg"
+    },
+    {
+        "id":"elementproduct12",
+        "nombre":"Harajuku Long Sleeve Embroidery Stripe T-Shirt",
+        "precio":1000,
+        "source":"../Assets/images/Harajuku Long Sleeve Embroidery Stripe T-Shirt.jpg"
+    },
+    {
+        "id":"elementproduct13",
+        "nombre":"Purge Boots",
+        "precio":10000,
+        "source":"../Assets/images/Purge Boots.jpg"
+    },
+    {
+        "id":"elementproduct14",
+        "nombre":"Lace-up High Heel Boots",
+        "precio":10000,
+        "source":"../Assets/images/Lace-up High Heel Boots.jpg"
+    },
+    {
+        "id":"elementproduct15",
+        "nombre":"Martin Boots",
+        "precio":10000,
+        "source":"../Assets/images/Martin Boots.jpg"
+    },
+    {
+        "id":"elementproduct16",
+        "nombre":"Leather Knee High Boots",
+        "precio":10000,
+        "source":"../Assets/images/Leather Knee High Boots.jpg"
+    },
+    {
+        "id":"elementproduct17",
+        "nombre":"Studded Strap Lace Up Platform Boots",
+        "precio":10000,
+        "source":"../Assets/images/Studded Strap Lace Up Platform Boots.jpg"
+    },
+    {
+        "id":"elementproduct18",
+        "nombre":"Punk Ripped Leggings",
+        "precio":3500,
+        "source":"../Assets/images/Punk Ripped Leggings.jpg"
+    },
+    {
+        "id":"elementproduct19",
+        "nombre":"Warm Fuzzy Thigh High Socks",
+        "precio":3500,
+        "source":"../Assets/images/Warm Fuzzy Thigh High Socks.jpg"
+    },
+    {
+        "id":"elementproduct20",
+        "nombre":"Graffiti Leggings",
+        "precio":3500,
+        "source":"../Assets/images/Graffiti Leggings.jpg"
+    },
+    {
+        "id":"elementproduct21",
+        "nombre":"Design Fashion Camera Mini Purse",
+        "precio":6000,
+        "source":"../Assets/images/Design Fashion Camera Mini Purse.jpg"
+    },
+    {
+        "id":"elementproduct22",
+        "nombre":"Sweatshirt Slim Dress",
+        "precio":3000,
+        "source":"../Assets/images/Sweatshirt Slim Dress.jpg"
+    },
+    {
+        "id":"elementproduct23",
+        "nombre":"Puff Sleeve Eileen Dress",
+        "precio":3000,
+        "source":"../Assets/images/Puff Sleeve Eileen Dress.jpg"
+    },
+    {
+        "id":"elementproduct24",
+        "nombre":"Fase Lunar Aesthetic HODDIE Black/withe - Japan Goth Moon",
+        "precio":1500,
+        "source":"../Assets/images/Fase Lunar Aesthetic HODDIE Blackwithe - Japan Goth Moon.PNG"
+    },
+    {
+        "id":"elementproduct25",
+        "nombre":"Black And Blue High Waist Jeans",
+        "precio":3500,
+        "source":"../Assets/images/Black And Blue High Waist Jeans.jpg"
+    },
+    {
+        "id":"elementproduct26",
+        "nombre":"LINKED UP CARGO JOGGERS",
+        "precio":3500,
+        "source":"../Assets/images/LINKED UP CARGO JOGGERS.jpg"
+    },
+    {
+        "id":"elementproduct27",
+        "nombre":"Checkerboard Stylish Pants",
+        "precio":3500,
+        "source":"../Assets/images/Checkerboard Stylish Pants.jpg"
+    },
+    {
+        "id":"elementproduct28",
+        "nombre":"Dragon Style Loose Joggers",
+        "precio":3500,
+        "source":"../Assets/images/Dragon Style” Loose Joggers.jpg"
+    },
+    {
+        "id":"elementproduct29",
+        "nombre":"HODDIE SASUKE EYES",
+        "precio":1500,
+        "source":"../Assets/images/HODDIE SASUKE EYES.jpg"
+    },
+    {
+        "id":"elementproduct30",
+        "nombre":"T-SHORTS GOKU TRAINING",
+        "precio":1000,
+        "source":"../Assets/images/T-SHORTS GOKU TRAINING.jpg"
+    },
+    {
+        "id":"elementproduct31",
+        "nombre":"POKEMON BABE",
+        "precio":1000,
+        "source":"../Assets/images/POKEMON BABE.jpg"
+    },
+    {
+        "id":"elementproduct32",
+        "nombre":"MIKASA_2077",
+        "precio":1000,
+        "source":"../Assets/images/MIKASA_2077.jpg"
+    }
+
+]

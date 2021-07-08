@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="La mejor ropa al alcanze de tu bolsillo, perfecta relacion precio/Calidad.">
+    <meta name="keywords" content="Ropa, remeras, buzos, Hoddies, abrigos, zapatillas, lentes, relojes, bolsos">
+    <link rel="shortcut icon" href="../Assets/images/fantasma.png">
+    <link rel="stylesheet" href="../css/stylo.css">
+    <script src="https://kit.fontawesome.com/f2c50cad3f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css" />
+    <!-- Default theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css" />
+    <!-- Semantic UI theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.min.css" />
+    <!-- Bootstrap theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css" />
+    <title>Tienda</title>
+</head>
+
+<body>
+
+    <head>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light navFather sizzingContainerNav">
+
+
+            <div class="container-fluid">
+                <a class="navbar-brand navBarSizzing" href="./shop.html">SHOP</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="navbar-brand responsiveItem" href="../index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navbar-brand responsiveItem" href="./contact.html">CONTACT</a>
+                        </li>
+                        <li class="nav-item logged-out">
+                            <a class="navbar-brand responsiveItem" href="#" data-bs-toggle="modal"
+                                data-bs-target="#SignInModal">SIGN IN</a>
+                        </li>
+                        <li class="nav-item logged-out">
+                            <a class="navbar-brand responsiveItem" href="#" data-bs-toggle="modal"
+                                data-bs-target="#SignUpModal">REGISTER</a>
+                        </li>
+                        <li class="nav-item logged-in">
+                            <a class="navbar-brand responsiveItem" href="#" id="logout">LOG OUT</a>
+                        </li>
+                        <li class="nav-item buy-storeShop">
+                            <a class="navbar-brand responsiveItem" id="comprasCarrito" href="#" data-bs-toggle="modal"
+                                data-bs-target="#carroCompras">Ver carrito</a>
+                        </li>
+                        <li class="nav-item buy-storeShop">
+                            <a class="navbar-brand responsiveItem" id="comprasCarritoVisible" href="#">Ver carrito</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <section class="headerVideo">
+            <video class="headerVideo_Shop" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                <source src="../Assets/Video/BladeSong.mp4" type="video/mp4">
+            </video>
+            <div class="container h-100">
+                <div class="d-flex h-100 text-center align-items-center">
+                    <div class="w-100 text-style shopText">
+                        <svg viewBox="0 0 960 300">
+                            <symbol id="s-text">
+                                <text text-anchor="middle" x="50%" y="80%">SHOP</text>
+                            </symbol>
+
+                            <g class="g-ants">
+                                <use xlink:href="#s-text" class="text-copy"></use>
+                                <use xlink:href="#s-text" class="text-copy"></use>
+                                <use xlink:href="#s-text" class="text-copy"></use>
+                                <use xlink:href="#s-text" class="text-copy"></use>
+                                <use xlink:href="#s-text" class="text-copy"></use>
+                            </g>
+                        </svg>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </head>
+    <div class="container-fluid backContainerSix">
+        <div class="row container__Middle-ContextSix">
+            <div class="container__Middle-ContextSix-Body">
+                <section class="container__Middle-ContextSix-Body-Products" id="primerCuadrante">
+                </section>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid backContainerSix">
+        <div class="row container__Middle-ContextSix">
+            <div class="container__Middle-ContextSeven-Body">
+                <section class="container__Middle-ContextSix-Body-Products" id="segundoCuadrante">
+                </section>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container-fluid backContainerSix">
+        <div class="row container__Middle-ContextSix">
+            <div class="container__Middle-ContextEight-Body">
+                <section class="container__Middle-ContextSix-Body-Products" id="tercerCuadrante">
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid backContainerSix">
+        <div class="row container__Middle-ContextSix">
+            <div class="container__Middle-ContextNine-Body">
+                <section class="container__Middle-ContextSix-Body-Products" id="cuartoCuadrante">
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid backContainerfive">
+        <div class="row container__Middle-Contextfive">
+            <div class="container__Middle-Contextfive-Body">
+                <a href="#" class="slideUp" aria-label="inicioPage"><i class="fas fa-chevron-up">Inicio de
+                        pagina</i></a>
+                <!-- Footer -->
+                <footer class="footerColor text-center text-white footer-sizing">
+                    <!-- Grid container -->
+                    <div class="container p-4">
+                        <!-- Section: Social media -->
+                        <section class="mb-4 socialMediaSizing">
+                            <!-- Facebook -->
+                            <a class="btn btn-outline-light btn-floating m-1" href="#!"="button"
+                                aria-label="facebook"><i class="fab fa-facebook-f btn--facebook"></i></a>
+
+                            <!-- Twitter -->
+                            <a class="btn btn-outline-light btn-floating m-1 " href="#!"="button"
+                                aria-label="twitter"><i class="fab fa-twitter btn--twitter"></i></a>
+
+                            <!-- Google -->
+                            <a class="btn btn-outline-light btn-floating m-1" href="#!"="button" aria-label="gmail"><i
+                                    class="fab fa-google btn--send-mail"></i></a>
+
+                            <!-- Instagram -->
+                            <a class="btn btn-outline-light btn-floating m-1" href="#!"="button"
+                                aria-label="instagram"><i class="fab fa-instagram btn--instagram"></i></a>
+
+                            <!-- Linkedin -->
+                            <a class="btn btn-outline-light btn-floating m-1" href="#!"="button"
+                                aria-label="linkedin"><i class="fab fa-linkedin-in btn--linkedin"></i></a>
+
+                            <!-- Github -->
+                            <a class="btn btn-outline-light btn-floating m-1" href="#!"="button" aria-label="github"><i
+                                    class="fab fa-github btn--github"></i></a>
+                        </section>
+                        <!-- Section: Social media -->
+
+                        <!-- Section: Form -->
+                        <section class="">
+                            <form action="">
+                                <!--Grid row-->
+                                <div class="row d-flex justify-content-center suscribeSizing">
+                                    <!--Grid column-->
+                                    <div class="col-auto">
+                                        <label for="form5Example2">
+                                            <p class="pt-1">
+                                                <strong>Sign up for our newsletter</strong>
+                                            </p>
+                                        </label>
+                                    </div>
+                                    <!--Grid column-->
+
+                                    <!--Grid column-->
+                                    <div class="col-md-5 col-12" aria-label="emailSuscribirse">
+                                        <!-- Email input -->
+                                        <div class="form-outline form-white mb-3"
+                                            aria-label="containerEmailSuscribirse">
+                                            <input type="email" id="form5Example2" class="form-control form-sizing" />
+                                        </div>
+                                    </div>
+                                    <!--Grid column-->
+
+                                    <!--Grid column-->
+                                    <div class="col-auto">
+                                        <!-- Submit button -->
+                                        <button type="submit" class="btn btn-outline-light mb-4">
+                                            Subscribe
+                                        </button>
+                                    </div>
+                                    <!--Grid column-->
+                                </div>
+                                <!--Grid row-->
+                            </form>
+                        </section>
+                        <!-- Section: Form -->
+                        <!-- Grid container -->
+
+                        <!-- Copyright -->
+                        <!--Desde la pagina donde descargue el icono pedia atribuir al autor-->
+                        <div>Iconos diseñados por <a href="" title="smalllikeart" id="smalllikeart">smalllikeart</a>
+                            from <a href="https://www.flaticon.es/" title="Flaticon" id="Flaticon">www.flaticon.es</a>
+                        </div>
+
+                        <div class="text-center p-3 copyright-sizing" style="background-color: rgba(0, 0, 0, 0.2);">
+                            © 2021 Copyright
+                        </div>
+
+                        <!-- Copyright -->
+                </footer>
+                <!-- Footer -->
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="buyConfirm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img src="..." class="imagenModal">
+                </div>
+                <div class="modal-body">
+                    <h2 class="Descripcion">...</h2>
+                    <p class="vistaPrecio">...</p>
+                    <p class="precio" style="display: none;">...</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">dejar de agregar</button>
+                    <button type="button" id="save" class="btn btn-success">agregar al carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal carrito-->
+    <div class="modal fade modalDisplay" id="carroCompras" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1>Carro de compras</h1>
+                </div>
+                <div class="modal-body">
+                    <ul class="list-shop">
+
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" id="limpiarCarrito" data-bs-dismiss="modal">limpiar Carrito</button>
+                    <button type="button" class="btn btn-success" id="confirmarCarrito" data-bs-dismiss="modal">Confirmar compra</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End modal carrito-->
+    <!-- Modal signUp-->
+    <div class="modal fade" id="SignUpModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">signup</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="signup-form">
+                        <div class="form-group">
+                            <input type="email" id="signup-email" class="form-control" placeholder="email" required>
+
+                        </div>
+                        <div class="form-group">
+                            <input type="password" id="signup-password" class="form-control" placeholder="Password"
+                                required>
+
+                        </div>
+                        <button type="submit" class="btn btn-primary">sign
+                            up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--Modal LogIn-->
+    <div class="modal fade" id="SignInModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+        data-bs-dismiss="hidden.bs.modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header modalTXT">
+                    <h5 class="modal-title" id="exampleModalLabel modalTXT">SIGN IN</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="signin-form">
+                        <div class="form-group">
+                            <input type="email" id="signin-email" class="form-control" placeholder="email" required>
+
+                        </div>
+                        <div class="form-group">
+                            <input type="password" id="signin-password" class="form-control" placeholder="Password"
+                                required>
+
+                        </div>
+                        <button type="submit" class="btn btn-secondary"
+                            style="display:block; margin:0 auto; width:100%;">sign
+                            in</button>
+                        <button type="button" id="googleLogin" class="btn btn-info" data-bs-dismiss="modal"
+                            style="display:block; margin:0 auto;  width:100%;">sign
+                            in whith google</button>
+                        <button type="button" id="facebookLogin" class="btn btn-primary" data-bs-dismiss="modal"
+                            style="display:block; margin:0 auto;  width:100%;">sign
+                            in whith facebook</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"
+        integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+
+    <!--FIREBASE SPACE-->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+
+
+    <!--END FIREBASE SPACE-->
+    <script src="../js/DB.js"></script>
+    <script src="../js/shop.js"></script>
+
+</body>
+
+</html>

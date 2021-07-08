@@ -1,0 +1,41 @@
+[{
+    "nombre": "Harajuku Bear Anime Hoodie",
+    "precio": 1500,
+    "source": "./Assets/images/Harajuku Bear Anime Hoodie.jpg"
+    },
+    {
+        "nombre": "Outwear Graffiti” Jacket",
+        "precio": 3000,
+        "source": "./Assets/images/Outwear Graffiti” Jacket.jpg"
+    },
+    {
+        "nombre": "Kawaii Anime Hoodie",
+        "precio": 1500,
+        "source": "./Assets/images/Kawaii Anime Hoodie.jpg"
+    },
+    {
+        "nombre": "Design Fashion Camera Mini Purse",
+        "precio": 6000,
+        "source": "./Assets/images/Design Fashion Camera Mini Purse.jpg"
+    },
+    {
+        "nombre": "Hooded Winter Long Sleeve Chinese style Embroidery Hoodie",
+        "precio": 1500,
+        "source": "./Assets/images/Hooded Winter Long Sleeve Chinese style Embroidery Hoodie.jpg"
+    },
+    {
+        "nombre": "Shiba Inu Print Kawaii Velvet Long-sleeved Hooded Plush Coat",
+        "precio": 3000,
+        "source": "./Assets/images/Shiba Inu Print Kawaii Velvet Long-sleeved Hooded Plush Coat.jpg"
+    },
+    {
+        "nombre": "HODDIE SASUKE EYES",
+        "precio": 1500,
+        "source": "./Assets/images/HODDIE SASUKE EYES.jpg"
+    },
+    {
+        "nombre": "T-SHORTS GOKU TRAINING",
+        "precio": 1000,
+        "source": "./Assets/images/T-SHORTS GOKU TRAINING.jpg"
+    }
+]
