@@ -33,19 +33,19 @@
         "id":"elementproduct6",
         "nombre":"Beading Star Jacket",
         "precio":3000,
-        "source":"../Assets/images/Beading Star” Jacket.jpg"
+        "source":"../Assets/images/Beading Star Jacket.jpg"
     },
     {
         "id":"elementproduct7",
         "nombre":"Outwear Graffiti Jacket",
         "precio":3000,
-        "source":"../Assets/images/Outwear Graffiti” Jacket.jpg"
+        "source":"../Assets/images/Outwear Graffiti Jacket.jpg"
     },
     {
         "id":"elementproduct8",
         "nombre":"Rock Star Jacket",
         "precio":3000,
-        "source":"../Assets/images/Rock Star” Jacket.jpg"
+        "source":"../Assets/images/Rock Star Jacket.jpg"
     },
     {
         "id":"elementproduct9",
@@ -165,7 +165,7 @@
         "id":"elementproduct28",
         "nombre":"Dragon Style Loose Joggers",
         "precio":3500,
-        "source":"../Assets/images/Dragon Style” Loose Joggers.jpg"
+        "source":"../Assets/images/Dragon Style Loose Joggers.jpg"
     },
     {
         "id":"elementproduct29",
